@@ -1,6 +1,17 @@
-before_script:
-  - npm install
-  
-run-test:
+image: node:latest
+
+stages:
+  - setup
+  - test
+
+install_dependencies:
+  stage: setup
   script:
-    - npm test
+	- npm install
+  artifacts:
+	paths:
+	  - node_modules/
+  
+testing_testing:
+  stage: test
+  script: npm test
