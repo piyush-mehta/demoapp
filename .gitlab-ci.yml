@@ -7,10 +7,10 @@ stages:
 install_dependencies:
   stage: setup
   script:
-	- npm install
+       - npm install
   artifacts:
 	paths:
-	  - node_modules/
+          - node_modules/
   
 testing_testing:
   stage: test
