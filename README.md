@@ -1,11 +1,3 @@
-# gggg | SDddd | APIiiiiiiiiiii
-
-## Problem Statement
-
-Create a comparator 
-
-
-
 # Web App HTML
 
 A front-end web application based on [HTML5 Boilerplate](http://html5boilerplate.com)
